@@ -25,3 +25,17 @@ Test case-1: He can start at 7pm and finish by 10 pm. Therefore he can complete 
 
 Test case-2: He can not complete all the 3 assignments if he starts at 9 pm.
 */
+#include <stdio.h>
+
+int main(void) {
+    int a,i,b;
+    scanf("%d",&a);
+    for(i=0;i<a;i++){
+        scanf("%d",&b);
+        if(b+3 <= 10)
+        printf("Yes\n");
+        else
+        printf("No\n");
+    }
+	return 0;
+}
